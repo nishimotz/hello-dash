@@ -53,9 +53,10 @@ app.layout = html.Div(
                 "backgroundColor": "rgb(230, 230, 230)",
                 "fontWeight": "bold",
             },
-            style_data_conditional=[
-                {"if": {"row_index": "odd"}, "backgroundColor": "rgb(248, 248, 248)"}
-            ],
+            # highlight_current_session の Output で設定される
+            # style_data_conditional=[
+            #     {"if": {"row_index": "odd"}, "backgroundColor": "rgb(248, 248, 248)"}
+            # ],
         ),
     ]
 )
